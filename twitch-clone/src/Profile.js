@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profile.css'
+import RecentItem from './RecentItem'
 
 const Profile = () => {
     return (
@@ -28,6 +29,26 @@ const Profile = () => {
             </div>
             <div className="profile__recent">
                 <h2>Recent broadcasts</h2>
+                <div className="profile__recentItems">
+                    <RecentItem
+                        url={'https://www.youtube.com/embed/jf3GdvAFHsE'}
+                        title={'Top 5 Programming Languages to Learn in 2021 to Get a Job Without a College Degree'} />
+                    <RecentItem
+                        url={"https://www.youtube.com/embed/-bjJetWnNZg"}
+                        title={'Backend Developer Guide 2021'} />
+                    <RecentItem
+                        url={"https://www.youtube.com/embed/CUGPbZ77OuQ"}
+                        title={'Learn React JS with Me (for Beginners)'} />
+                    <RecentItem
+                        url={"https://www.youtube.com/embed/Tq4beHrgV64"}
+                        title={'How to Get a Job as a ReactJS Developer in 2021'} />
+                </div>
+                
+                <div className="profile__categories">
+                    <h2>cleverprogrammer's recently streamed Catogories</h2>
+                    <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" alt="avatar" />
+                    <h3>Science & Technology</h3>
+                </div>
             </div>
         </div>
     )
