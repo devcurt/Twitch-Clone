@@ -32,16 +32,20 @@ const Profile = () => {
                 <div className="profile__recentItems">
                     <RecentItem
                         url={'https://www.youtube.com/embed/jf3GdvAFHsE'}
-                        title={'Top 5 Programming Languages to Learn in 2021 to Get a Job Without a College Degree'} />
+                        title={'Top 5 Programming Languages to Learn in 2021/easy'} 
+                    />
                     <RecentItem
-                        url={"https://www.youtube.com/embed/-bjJetWnNZg"}
-                        title={'Backend Developer Guide 2021'} />
+                        url={'https://www.youtube.com/embed/Wn8Q8VbZIMQ'}
+                        title={'🔴 How to Build the Tesla Home Page with ReactJS'} 
+                    />
                     <RecentItem
-                        url={"https://www.youtube.com/embed/CUGPbZ77OuQ"}
-                        title={'Learn React JS with Me (for Beginners)'} />
+                        url={'https://www.youtube.com/embed/gaPmjniifuY'}
+                        title={'React JS Workshop to Build Amazon Clone/Portfolio'} 
+                    />
                     <RecentItem
-                        url={"https://www.youtube.com/embed/Tq4beHrgV64"}
-                        title={'How to Get a Job as a ReactJS Developer in 2021'} />
+                        url={'https://www.youtube.com/embed/Tq4beHrgV64'}
+                        title={'How to Get a Job as a ReactJS Developer in 2021'} 
+                    />
                 </div>
                 
                 <div className="profile__categories">
